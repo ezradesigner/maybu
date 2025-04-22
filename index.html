@@ -1,39 +1,377 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
+    <!-- add google tag -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda CRM Odonto</title>
-    <link rel="stylesheet" href="agenda-website.min.css">
+    <title>MAYBU Máquinas Agrícolas</title>
+    <!-- add meta content -->
+    <link href="maybu.style.css" rel="stylesheet" type="text/css"/>
+    <link href="fav-icon.png" rel="shortcut icon" type="image/x-icon"/>
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <img src="data:image/svg+xml,..." class="logo" alt="Logo">
+    <!-- Overlay for mobile menu -->
+    <div class="overlay"></div>
+    
+    <!-- Top Menu -->
+    <nav class="top-menu">
+        <div class="logo"><img src="logo.png" alt="MAYBU Logo"></div>
+        <ul class="nav-links">
+            <li><a href="#product">Máquinas</a></li>
+            <li><a href="#about">Quem Somos</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </nav>
-
-    <section class="hero-section">
-        <div class="container">
-            <h1>Agenda CRM Odonto</h1>
-            <p>Software completo para gestão clínica odontológica</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn">Experimente Grátis</a>
-                <a href="#" class="btn secondary">Ver Planos</a>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="hamburger close-btn">
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="mobile-links">
+            <li class="hover"><a href="#product">Máquinas</a></li>
+            <li><a href="#about">Quem Somos</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </div>
+    
+    <!-- Sticky Menu  -->
+    <nav class="sticky-menu">
+        <div class="logo"><img src="logo2.png" alt="MAYBU Logo"></div>
+        <ul class="nav-links">
+            <li><a href="#product">Máquinas</a></li>
+            <li><a href="#about">Quem Somos</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <!-- Header Section -->
+    <section id="header">
+        <div class="header-content">
+            <div class="header-cta">
+                <h1>Colheita de fardos de forma <span>autônoma, simples e eficaz</span>.</h1>
+                <p>Adquira nossa coletadora automática de fardos de feno.</p>
+                <a href="https://api.whatsapp.com/send?phone=5571988288000&text=Oi%2C%20tenho%20interesse%20em%20adquirir%20a%20coletadora%20autom%C3%A1tica%20de%20fardos%20de%20feno." class="cta-button" target="_blank">Compre Agora</a>
+            </div>
+            <div class="header-video">
+                <div class="video-wrap">
+                    <iframe src="https://www.youtube-nocookie.com/embed/DSt6IIFjaSs?autoplay=1&playlist=DSt6IIFjaSs&mute=1&rel=0&loop=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>            
+        </div>
+    </section>
+    
+    <!-- Product Section -->
+    <section id="product">
+        <h2 class="section-title">Coletadora Automática de Fardos de Feno</h2>
+        <div class="product-container">
+            <img class="product-image" alt="Coletadora Automática de Fardos de Feno" loading="lazy" src="IMG_1338.webp" />
+            <div class="product-info">
+                <h2>Innovative Solution for Modern Problems</h2>
+                <p>Our product is designed with cutting-edge technology to provide the best user experience possible.</p>
+                <ul>
+                    <li>Feature one with amazing benefits</li>
+                    <li>Feature two that solves critical problems</li>
+                    <li>Feature three that outperforms competitors</li>
+                    <li>Feature four with excellent support</li>
+                </ul>
+                <a href="https://api.whatsapp.com/send?phone=5571988288000&text=Oi%2C%20tenho%20interesse%20em%20adquirir%20a%20coletadora%20autom%C3%A1tica%20de%20fardos%20de%20feno." class="cta-button" target="_blank">Compre Agora</a>
             </div>
         </div>
     </section>
 
-    <section class="features">
-        <div class="container">
-            <div class="feature-card">
-                <h3>Agendamento Inteligente</h3>
-                <p>Controle completo da agenda de pacientes</p>
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="gallery-grid"><!--grid-->
+            <div class="gallery-block"><!--coluna 1-->
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
             </div>
-            <!-- Repeat other feature cards similarly -->
+            <div class="gallery-block"><!--coluna 2-->
+                <div class="gallery-item long">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+            </div>
+            <div class="gallery-block"><!--coluna 3-->
+                <div class="gallery-item">
+                    <img src="IMG_1299.webp" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_1299.webp" loading="lazy">
+                </div>
+            </div>
+            <div class="gallery-block"><!--coluna 1-->
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+            </div>
+            <div class="gallery-block"><!--coluna 1-->
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_1338.webp" loading="lazy">
+                </div>
+            </div>          
         </div>
     </section>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">Quem Somos</h2>
+        <div class="about-content">
+            <p>We are a passionate team of developers, designers, and problem solvers dedicated to creating products that make a difference.</p>
+            <p>Founded in 2020, our company has grown from a small startup to a trusted name in the industry, serving thousands of happy customers worldwide.</p>
+            <p>Our mission is to simplify complex processes through intuitive design and innovative technology.</p>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2 class="section-title">Dúvidas Frequentes</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">How does your product work? <span class="chevron-icon"><img src="https://assets-global.website-files.com/61717799a852418a278cfa9b/62fe5813cb7d4469f959fd41_chevron-right-icon-28-dark-gray.svg" alt=">"></span></div>
+                <div class="faq-answer">
+                    <p>Our product uses advanced algorithms to analyze your needs and provide customized solutions. The process is simple: you input your requirements, our system processes them, and delivers optimal results in seconds.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What are your pricing plans? <span class="chevron-icon"><img src="https://assets-global.website-files.com/61717799a852418a278cfa9b/62fe5813cb7d4469f959fd41_chevron-right-icon-28-dark-gray.svg" alt=">"></span></div>
+                <div class="faq-answer">
+                    <p>We offer three pricing tiers: Basic, Pro, and Enterprise. The Basic plan starts at $9.99/month and includes all essential features. The Pro plan at $29.99/month adds advanced functionality, while the Enterprise plan offers custom solutions for large organizations.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you offer a free trial? <span class="chevron-icon"><img src="https://assets-global.website-files.com/61717799a852418a278cfa9b/62fe5813cb7d4469f959fd41_chevron-right-icon-28-dark-gray.svg" alt=">"></span></div>
+                <div class="faq-answer">
+                    <p>Yes! We offer a 14-day free trial with full access to all features in the Pro plan. No credit card is required to start your trial.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How can I contact support? <span class="chevron-icon"><img src="https://assets-global.website-files.com/61717799a852418a278cfa9b/62fe5813cb7d4469f959fd41_chevron-right-icon-28-dark-gray.svg" alt=">"></span></div>
+                <div class="faq-answer">
+                    <p>Our support team is available 24/7 via email at support@company.com or through the live chat feature in our application. Average response time is under 2 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Solicite uma Proposta</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone (com DDD):</label>
+                    <input type="tel" id="phone" pattern="(\([0-9]{2}\)\s[0-9]{4,5}-[0-9]{4})" title="Brazilian phone format: (xx) xxxxx-xxxx or (xx) xxxx-xxxx" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="state">Cidade/Estado:</label>
+                    <input type="text" id="subject" required>
+                </div>
+                <div class="form-group full-width">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <div class="form-group full-width send">
+                    <button type="submit" class="cta-button">Enviar Mensagem</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <img src="logo2.png" alt="MAYBU Máquinas Agrícolas">
+                </div>
+                <p>
+                    BR 242 km 134<br>
+                    Vila São Vicente, Itaberaba-BA<br>
+                    CEP: 46880-000
+                </p>
+            </div>            
+            <div class="footer-column">
+                <h3 class="footer-title">Produtos</h3>
+                <p class="footer-links">
+                    <a href="#product">Coletadora Automática</a>
+                </p>
+            </div>            
+            <div class="footer-column">
+                <h3 class="footer-title">Contatos</h3>
+                <p class="footer-links">
+                    <a href="https://api.whatsapp.com/send?phone=5571988288000&text=Oi%2C%20tenho%20interesse%20em%20adquirir%20a%20coletadora%20autom%C3%A1tica%20de%20fardos%20de%20feno." target="_blank">(11) 98828-8000</a>
+                </p>
+                <p class="footer-links">
+                    <a href="mailto:contato@maybumaquinasagricolas.com.br<">contato@maybumaquinasagricolas.com.br</a>
+                </p>
+            </div>            
+            <div class="footer-column">
+                <h3 class="footer-title">Nos Siga</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com/maybumaquinasagricolas" target="_blank" rel="noopener noreferrer">
+                        <svg width="auto" height="currentHeight" viewBox="0 0 39 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M26.949 39.0772H12.0467C8.85296 39.0731 5.79115 37.8 3.53283 35.5369C1.2745 33.2739 0.00400386 30.2057 0 27.0053V12.0719C0.00400386 8.87145 1.2745 5.80324 3.53283 3.54019C5.79115 1.27714 8.85296 0.00401223 12.0467 0H26.949C30.1427 0.00401223 33.2045 1.27714 35.4628 3.54019C37.7212 5.80324 38.9917 8.87145 38.9957 12.0719V27.0053C38.9917 30.2057 37.7212 33.2739 35.4628 35.5369C33.2045 37.8 30.1427 39.0731 26.949 39.0772ZM12.0467 4.35838C10.0051 4.3606 8.04766 5.17432 6.60399 6.62101C5.16033 8.06769 4.3483 10.0292 4.34609 12.0751V27.0085C4.3483 29.0544 5.16033 31.0159 6.60399 32.4626C8.04766 33.9093 10.0051 34.723 12.0467 34.7252H26.949C28.9906 34.723 30.948 33.9093 32.3917 32.4626C33.8353 31.0159 34.6474 29.0544 34.6496 27.0085V12.0751C34.6474 10.0292 33.8353 8.06769 32.3917 6.62101C30.948 5.17432 28.9906 4.3606 26.949 4.35838H12.0467Z" fill="CurrentColor"></path>
+                            <path d="M19.4994 29.5281C17.5281 29.5281 15.6011 28.9423 13.962 27.8448C12.3229 26.7473 11.0454 25.1874 10.291 23.3624C9.53667 21.5374 9.33929 19.5291 9.72387 17.5917C10.1084 15.6542 11.0577 13.8746 12.4516 12.4777C13.8455 11.0809 15.6215 10.1297 17.5549 9.74429C19.4883 9.3589 21.4924 9.55669 23.3136 10.3126C25.1348 11.0686 26.6915 12.3488 27.7867 13.9913C28.8818 15.6338 29.4664 17.5648 29.4664 19.5402C29.463 22.1881 28.4118 24.7266 26.5434 26.5989C24.6749 28.4713 22.1418 29.5247 19.4994 29.5281ZM19.4994 13.4752C18.3016 13.4746 17.1305 13.83 16.1342 14.4964C15.138 15.1627 14.3613 16.1102 13.9025 17.219C13.4437 18.3278 13.3233 19.548 13.5566 20.7253C13.7899 21.9026 14.3663 22.9842 15.2131 23.8332C16.0599 24.6822 17.1388 25.2604 18.3136 25.4948C19.4883 25.7292 20.7061 25.6092 21.8128 25.15C22.9195 24.6908 23.8654 23.9131 24.5309 22.9151C25.1965 21.9171 25.5517 20.7438 25.5517 19.5434C25.5504 17.935 24.9125 16.3928 23.7778 15.2551C22.6431 14.1175 21.1045 13.4774 19.4994 13.4752Z" fill="currentColor"></path>
+                            <path d="M29.9686 10.6589C30.8985 10.6589 31.6523 9.90351 31.6523 8.97168C31.6523 8.03985 30.8985 7.28445 29.9686 7.28445C29.0387 7.28445 28.2849 8.03985 28.2849 8.97168C28.2849 9.90351 29.0387 10.6589 29.9686 10.6589Z" fill="currentColor"></path>
+                            </svg>
+                    </a>
+                </div>
+            </div>
+        </div>        
+        <div class="copyright">
+            &copy; 2025 MAYBU Máquinas Agri'colas. Todos os direitos reservados.
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu functionality - Top-to-bottom version
+        const hamburger = document.querySelectorAll('.hamburger');
+        const closeBtn = document.querySelector('.close-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const overlay = document.querySelector('.overlay');
+        
+        // Toggle mobile menu
+        function toggleMenu() {
+            mobileMenu.classList.toggle('active');
+            overlay.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+            
+            // Toggle hamburger buttons
+            hamburger.forEach(btn => {
+                if(btn !== closeBtn) {
+                    btn.classList.toggle('active');
+                }
+            });
+            
+            // Special animation for close button
+            if(closeBtn) {
+                closeBtn.classList.toggle('active');
+            }
+        }
+        
+        // Event listeners for all hamburger buttons
+        hamburger.forEach(btn => {
+            btn.addEventListener('click', toggleMenu);
+        });
+        
+        // Close menu when clicking overlay
+        overlay.addEventListener('click', toggleMenu);
+        
+        // Close menu when clicking a link
+        document.querySelectorAll('.mobile-links a').forEach(link => {
+            link.addEventListener('click', toggleMenu);
+        });
+        
+        // Sticky menu functionality
+        const stickyMenu = document.querySelector('.sticky-menu');
+        const header = document.getElementById('header');
+        const headerHeight = header.offsetHeight;
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > headerHeight) {
+                stickyMenu.classList.add('visible');
+            } else {
+                stickyMenu.classList.remove('visible');
+            }
+        });
+        
+        // FAQ accordion functionality
+        const faqQuestions = document.querySelectorAll('.faq-question');
 
-    <script src="agenda-website.min.js"></script>
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = answer.classList.contains('active');
+                const chevron = question.querySelector('.chevron-icon');        
+                // Close all answers first
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.classList.remove('active');
+                    const q = ans.previousElementSibling;
+                    q.querySelector('.chevron-icon').style.transform = 'rotate(0deg)';
+                });        
+                // Toggle the clicked one if it wasn't active
+                if (!isActive) {
+                    answer.classList.add('active');
+                    chevron.style.transform = 'rotate(90deg)';
+                } else {
+                    chevron.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Phone number formatting for Brazilian numbers
+        document.getElementById('phone').addEventListener('input', function(e) {
+            // Remove all non-digit characters
+            let value = e.target.value.replace(/\D/g, '');    
+            // Apply formatting
+            if (value.length > 0) {
+                value = value.replace(/^(\d{2})(\d)/g, "($1) $2");
+                if (value.length > 9) {
+                    value = value.replace(/(\d{4,5})(\d)/, "$1-$2");
+                }
+            }    
+            e.target.value = value;
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Responsive adjustments
+        function handleResize() {
+            // If window is resized to desktop size and mobile menu is open, close it
+            if (window.innerWidth > 768 && mobileMenu.classList.contains('active')) {
+                toggleMenu();
+            }
+        }
+        
+        window.addEventListener('resize', handleResize);
+    </script>
 </body>
 </html>
