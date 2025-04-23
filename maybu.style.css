@@ -146,8 +146,9 @@ footer {background: #222;color: white;padding: 50px 5% 20px;font-style: normal;l
     .section-title {font-size: 2rem;}
     .product-info h2 {font-size: 1.5rem;}
     .gallery-grid {grid-template-columns:1fr}
-    .gallery-block {flex-direction:column;align-items:center;}
-    .gallery-item {margin-right:0;display:block;}
+    .gallery-block {flex-direction:column;align-items:center;display:block;}
+    .gallery-item {margin-right:0;margin-bottom:10px;max-height:100px;width:100%;display: block;}
+    .gallery-item.long {display: none;}
     .footer-content {grid-template-columns: 1fr;}
 }
 @font-face {font-family: 'Inter';src: url('https://assets.website-files.com/61717799a852418a278cfa9b/62ed5bd0c09ba38c99157dc7_Inter-Bold.woff2') format('woff2');font-weight: 700;font-style: normal;font-display: swap;}
