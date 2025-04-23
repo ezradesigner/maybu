@@ -139,7 +139,7 @@ footer {background: #222;color: white;padding: 50px 5% 20px;font-style: normal;l
 }
 
 @media (max-width: 480px) {
-    .logo {width: 120px; height: 30px;margin: 0 auto;}
+    .logo {width: 100px; height: 25px;margin: 0 auto;}
     .sticky-menu .logo {width: 120px;height: 30px;font-size: 0.6rem;}
     .header-content h1 {font-size:32px;}    
     .header-content p {font-size: 1rem;}
